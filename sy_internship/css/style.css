@@ -1,0 +1,51 @@
+
+/* ヘッダー */
+.headerBody {
+    background-image: url("/internship/img/top_header.jpg");
+    background-position: left;
+    color: #FFFFFF;
+    position: fixed; /* ヘッダーを固定する */
+    top: 0; /* 上部に固定 */
+    left: 0; /* 左端に固定 */
+    width: 100%; /* 全幅に設定 */
+    z-index: 1000; /* 他の要素よりも前面に表示 */
+}
+
+.headerfont {
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 10px; /* ヘッダー内の余白を追加 */
+}
+
+/* サイドバー */
+.sidebarBody{
+	background-color : #FFDEAD;
+}
+
+/* フッター */
+.footerBody{
+	background-image : url("/internship/img/020988_mini.jpg");
+	background-repeat:no-repeat;
+	background-position:top;
+	color : #8B4513;
+}
+
+.footerfont{
+	text-align : center;
+	font-size : 80%;
+	font-style : italic;
+}
+
+/* アクセスマップ */
+.acmpTitleFont{
+	font-size : 34px;
+	font-weight : bold;
+	color : #660033;
+}
+
+.acmpShopInfoFont{
+	font-size : 28px;
+	font-weight : bold;
+	color : #660033;
+}

@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html>
+<meta charaset="utf-8">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/internship/css/common.css" media="all">
+<title>メニュー｜ハンバーガードキン</title>
+</head>
+<body id="contentsBody">
+<div id="container">
+	<div id="contents">
+		<div id="campus">
+			</br>
+			</br>
+			<h2>メニュー</h2>
+			<div id="welcome1">
+				<div id="companyInfo2">
+
+
+
+
+<center>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #a0522d; /* タイトルの色 */
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 横2列 */
+    grid-template-rows: repeat(4, auto); /* 縦4行 */
+    gap: 10px; /* セルの間隔 */
+    margin: 0 auto;
+    max-width: 1200px; /* 最大幅 */
+}
+
+.table-container img {
+    width: 100%; /* 画像をセルに合わせて拡大・縮小 */
+    height: auto; /* 高さを自動調整 */
+    display: block;
+    cursor: pointer; /* クリック可能であることを示すカーソル */
+    transition: transform 0.2s ease-in-out; /* 画像の拡大アニメーション */
+}
+
+.table-container img:hover {
+    transform: scale(1.05); /* ホバー時に拡大 */
+}
+
+/* モーダルのスタイル */
+.modal {
+    display: none; /* デフォルトでは非表示 */
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8); /* 半透明の背景 */
+    z-index: 1000;
+    opacity: 0; /* 初期状態は透明 */
+    transition: opacity 0.3s ease; /* モーダルのフェードイン・フェードアウト */
+}
+
+.modal.show {
+    display: block; /* 表示状態 */
+    opacity: 1; /* 完全に表示 */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+    transition: transform 0.3s ease; /* 画像の拡大アニメーション */
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease; /* 閉じるボタンのホバーアニメーション */
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+    </style>
+</head>
+<body>
+    <table>
+
+    <div class="table-container">
+        <img src="/internship/img/Burger.jpg" alt="ハンバーガー" onclick="openModal(this.src)">
+        <img src="/internship/img/CheeseBurger.jpg" alt="チーズハンバーガー" onclick="openModal(this.src)">
+        <img src="/internship/img/TeriyakiBurger.jpg" alt="てりやきハンバーガー" onclick="openModal(this.src)">
+        <img src="/internship/img/friedpotato.jpg" alt="ドキンフライポテト" onclick="openModal(this.src)">
+        <img src="/internship/img/salad.jpg" alt="サラダ" onclick="openModal(this.src)">
+        <img src="/internship/img/churros.jpg" alt="揚げたてチュロス" onclick="openModal(this.src)">
+        <img src="/internship/img/icecoffee.jpg" alt="アイスコーヒー" onclick="openModal(this.src)">
+        <img src="/internship/img/lemonade.jpg" alt="レモネード" onclick="openModal(this.src)">
+    </div>
+    </table>
+
+    <!-- モーダル -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script>
+        function openModal(src) {
+            const modal = document.getElementById("myModal");
+            const modalImage = document.getElementById("modalImage");
+            modal.style.display = "block";
+            modal.classList.add('show');
+            modalImage.src = src;
+        }
+
+        function closeModal() {
+            const modal = document.getElementById("myModal");
+            modal.classList.remove('show');
+            // モーダルの非表示が完了するまで待つ
+            setTimeout(() => {
+                modal.style.display = "none";
+            }, 300); // 300msはトランジション時間と同じ
+        }
+
+        // モーダルをクリックした場合も閉じる
+        window.onclick = function(event) {
+            const modal = document.getElementById("myModal");
+            if (event.target == modal) {
+                closeModal();
+            }
+        }
+    </script>
+
+
+
+
+</center>
+
+
+<br><br>
+
+<style>
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .product-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .product {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px;
+        width: calc(50% - 20px); /* 2列にするため、幅を50%に設定 */
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .product img {
+        width: 250px; /* 画像サイズをさらに大きくする */
+        height: auto;
+    }
+    .quantity-controls {
+        margin: 10px 0;
+    }
+    .quantity-controls input {
+        width: 40px;
+        text-align: center;
+    }
+    .hidden {
+        display: none;
+    }
+    #cart-items {
+        margin-top: 20px;
+    }
+    .cart-item {
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin: 10px 0;
+    }
+    #order-form {
+        margin-top: 20px;
+    }
+    #order-form input, #order-form select, #order-form button {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+</style>
+
+
+</head>
+<body>
+    <div id="container">
+        <div id="contents">
+            <div id="campus">
+                <h2>ネット注文</h2>
+                <div id="welcome1">
+                    <div id="companyInfo2">
+                        <div class="container">
+                            <!-- 商品リスト -->
+                            <div class="product-list">
+                                <!-- 商品1 -->
+                                <div class="product" data-id="1" data-price="500">
+                                    <img src="/internship/img/Burger.jpg" alt="ハンバーガー">
+                                    <h2>ハンバーガー</h2>
+                                    <p>価格: ¥500</p>
+                                    <div class="quantity-controls">
+                                        <button onclick="changeQuantity(1, -1)">-</button>
+                                        <input type="text" id="quantity-1" value="1" readonly>
+                                        <button onclick="changeQuantity(1, 1)">+</button>
+                                    </div>
+                                    <button onclick="addToCart(1, 'ハンバーガー', 500)">カートに追加</button>
+                                </div>
+                                <!-- 商品2 -->
+                                <div class="product" data-id="2" data-price="600">
+                                    <img src="/internship/img/CheeseBurger.jpg" alt="チーズハンバーガー">
+                                    <h2>チーズハンバーガー</h2>
+                                    <p>価格: ¥600</p>
+                                    <div class="quantity-controls">
+                                        <button onclick="changeQuantity(2, -1)">-</button>
+                                        <input type="text" id="quantity-2" value="1" readonly>
+                                        <button onclick="changeQuantity(2, 1)">+</button>
+                                    </div>
+                                    <button onclick="addToCart(2, 'チーズハンバーガー', 600)">カートに追加</button>
+                                </div>
+                                <!-- 商品3 -->
+                                <div class="product" data-id="3" data-price="700">
+                                    <img src="/internship/img/TeriyakiBurger.jpg" alt="てりやきハンバーガー">
+                                    <h2>てりやきバーガー</h2>
+                                    <p>価格: ¥700</p>
+                                    <div class="quantity-controls">
+                                        <button onclick="changeQuantity(3, -1)">-</button>
+                                        <input type="text" id="quantity-3" value="1" readonly>
+                                        <button onclick="changeQuantity(3, 1)">+</button>
+                                    </div>
+                                    <button onclick="addToCart(3, 'てりやきバーガー', 700)">カートに追加</button>
+                                </div>
+                                <!-- 商品4 -->
+                                <div class="product" data-id="4" data-price="300">
+                                    <img src="/internship/img/friedpotato.jpg" alt="ドキンフライドポテト">
+                                    <h2>ドキンフライドポテト</h2>
+                                    <p>価格: ¥300</p>
+                                    <div class="quantity-controls">
+                                        <button onclick="changeQuantity(4, -1)">-</button>
+                                        <input type="text" id="quantity-4" value="1" readonly>
+                                        <button onclick="changeQuantity(4, 1)">+</button>
+                                    </div>
+                                    <button onclick="addToCart(4, 'ドキンフライドポテト', 300)">カートに追加</button>
+                                </div>
+                                <!-- 商品5 -->
+                                <div class="product" data-id="5" data-price="340">
+                                    <img src="/internship/img/salad.jpg" alt="コールスローサラダ">
+                                    <h2>コールスローサラダ</h2>
+                                    <p>価格: ¥340</p>
+                                    <div class="quantity-controls">
+                                        <button onclick="changeQuantity(5, -1)">-</button>
+                                        <input type="text" id="quantity-5" value="1" readonly>
+                                        <button onclick="changeQuantity(5, 1)">+</button>
+                                    </div>
+                                    <button onclick="addToCart(5, 'コールスローサラダ', 340)">カートに追加</button>
+                                </div>
+                                <!-- 商品6 -->
+                                <div class="product" data-id="6" data-price="320">
+                                    <img src="/internship/img/churros.jpg" alt="揚げたてチュロス">
+                                    <h2>揚げたてチュロス</h2>
+                                    <p>価格: ¥320</p>
+                                    <div class="quantity-controls">
+                                        <button onclick="changeQuantity(6, -1)">-</button>
+                                        <input type="text" id="quantity-6" value="1" readonly>
+                                        <button onclick="changeQuantity(6, 1)">+</button>
+                                    </div>
+                                    <button onclick="addToCart(6, '揚げたてチュロス', 320)">カートに追加</button>
+                                </div>
+                                <!-- 商品7 -->
+                                <div class="product" data-id="7" data-price="180">
+                                    <img src="/internship/img/icecoffee.jpg" alt="アイスコーヒー">
+                                    <h2>アイスコーヒー</h2>
+                                    <p>価格: ¥180</p>
+                                    <div class="quantity-controls">
+                                        <button onclick="changeQuantity(7, -1)">-</button>
+                                        <input type="text" id="quantity-7" value="1" readonly>
+                                        <button onclick="changeQuantity(7, 1)">+</button>
+                                    </div>
+                                    <button onclick="addToCart(7, 'アイスコーヒー', 180)">カートに追加</button>
+                                </div>
+                                <!-- 商品8 -->
+                                <div class="product" data-id="8" data-price="400">
+                                    <img src="/internship/img/lemonade.jpg" alt="レモネード">
+                                    <h2>レモネード</h2>
+                                    <p>価格: ¥400</p>
+                                    <div class="quantity-controls">
+                                        <button onclick="changeQuantity(8, -1)">-</button>
+                                        <input type="text" id="quantity-8" value="1" readonly>
+                                        <button onclick="changeQuantity(8, 1)">+</button>
+                                    </div>
+                                    <button onclick="addToCart(8, 'レモネード', 400)">カートに追加</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- カートの表示 -->
+                <div id="cart">
+                    <h2>カート</h2>
+                    <div id="cart-items"></div>
+                    <p id="cart-total">合計: ¥0</p>
+                </div>
+
+<form>
+    <!-- 自動入力ボタンを追加 -->
+    <button type="button" onclick="autoFill()">発表用</button>
+<form>
+<script>
+    function autoFill() {
+        document.getElementById('name').value = '土禁 太郎';
+        document.getElementById('address').value = '東京都中央区日本橋浜町2丁目31-1 浜町センタービル10F（明治座ビル）';
+    }
+</script>
+
+
+                <!-- 注文フォーム -->
+                <div id="order-form">
+                    <h2>注文フォーム</h2>
+                    <form id="form">
+                        <label for="name">名前:</label>
+                        <input type="text" id="name" name="name" required placeholder="土禁　太郎">
+
+                        <label for="address">住所:</label>
+                        <input type="text" id="address" name="address" required placeholder="東京都中央区日本橋浜町2丁目31-1 浜町センタービル10F（明治座ビル）">
+
+                        <label for="payment">支払方法:</label>
+                        <select id="payment" name="payment" required>
+                            <option value="">選択してください</option>
+                            <option value="credit">クレジットカード</option>
+                            <option value="cash">現金</option>
+                            <option value="nfc">NFC（QR決済等）</option>
+                            <option value="paidy">Paidy</option>
+                            <option value="convenience">コンビニ決済</option>
+                            <option value="bank">銀行振込</option>
+                        </select>
+
+                        <div id="credit-card-info" class="hidden">
+                            <label for="card-number">カード番号:</label>
+                            <input type="text" id="card-number" name="card-number">
+
+                            <label for="expiry-date">有効期限:</label>
+                            <input type="text" id="expiry-date" name="expiry-date">
+
+                            <label for="cvv">CVV:</label>
+                            <input type="text" id="cvv" name="cvv">
+                        </div>
+
+                        <button type="button" onclick="placeOrder()">注文を確定する</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const paymentSelect = document.getElementById('payment');
+            const creditCardInfo = document.getElementById('credit-card-info');
+
+            paymentSelect.addEventListener('change', function() {
+                if (paymentSelect.value === 'credit') {
+                    creditCardInfo.classList.remove('hidden');
+                } else {
+                    creditCardInfo.classList.add('hidden');
+                }
+            });
+        });
+
+        const cart = [];
+
+        function changeQuantity(productId, change) {
+            const input = document.getElementById(`quantity-${productId}`);
+            let currentQuantity = parseInt(input.value, 10);
+            
+            if (!isNaN(currentQuantity)) {
+                currentQuantity += change;
+
+                if (currentQuantity < 1) currentQuantity = 1; // 最小数量は1
+                input.value = currentQuantity;
+            }
+        }
+
+        function addToCart(id, name, price) {
+            const quantity = parseInt(document.getElementById(`quantity-${id}`).value, 10);
+            const item = cart.find(i => i.id === id);
+
+            if (item) {
+                item.quantity += quantity;
+            } else {
+                cart.push({ id, name, price, quantity });
+            }
+
+            updateCartUI();
+        }
+
+        function removeFromCart(id) {
+            const index = cart.findIndex(i => i.id === id);
+            if (index !== -1) {
+                cart.splice(index, 1);
+                updateCartUI();
+            }
+        }
+
+        function clearCart() {
+            cart.length = 0;
+            updateCartUI();
+        }
+
+        function updateCartUI() {
+            const cartItems = document.getElementById('cart-items');
+            const cartTotal = document.getElementById('cart-total');
+            cartItems.innerHTML = '';
+
+            let totalAmount = 0;
+
+            cart.forEach(item => {
+                const itemTotal = item.price * item.quantity;
+                totalAmount += itemTotal;
+
+                cartItems.innerHTML += `
+                    <div class="cart-item">
+                        <h2>${item.name}</h2>
+                        <p class="price">価格: ¥${item.price} x ${item.quantity} = ¥${itemTotal}</p>
+                        <button onclick="removeFromCart(${item.id})">削除</button>
+                    </div>
+                `;
+            });
+
+            cartTotal.textContent = `合計: ¥${totalAmount}`;
+        }
+
+        function placeOrder() {
+            // 簡単なバリデーション
+            const name = document.getElementById('name').value;
+            const address = document.getElementById('address').value;
+            const paymentMethod = document.getElementById('payment').value;
+
+            if (!name || !address || !paymentMethod) {
+                alert('全てのフィールドを入力してください。');
+                return;
+            }
+
+            if (paymentMethod === 'credit') {
+                const cardNumber = document.getElementById('card-number').value;
+                const expiryDate = document.getElementById('expiry-date').value;
+                const cvv = document.getElementById('cvv').value;
+
+                if (!cardNumber || !expiryDate || !cvv) {
+                    alert('クレジットカード情報を入力してください。');
+                    return;
+                }
+            }
+
+            alert('注文が確定しました。');
+            clearCart();
+        }
+    </script>
+
+
+</body>
+
+
+
+</html>

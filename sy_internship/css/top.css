@@ -1,0 +1,114 @@
+/*コンテナー（HPを囲むブロック）
+---------------------------------------------------------------------------*/
+#container {
+	background-color: #FFFFFF;	/*背景色*/
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+/*TopPage用*/
+#Toppage .color1 {
+	color: #FF1800;
+}
+
+/*page1（HOME）のh2背景画像*/
+#Toppage #top h2 {
+	color: #fafafa;
+	background-image: url("/company/test/img/high_light.gif");
+	background-repeat: no-repeat;
+}
+
+
+
+#contents {
+	width: 830px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#top h2 {
+	font-size: 100%;
+	line-height: 40px;
+	height: 40px;
+	overflow: hidden;
+	padding-left: 30px;
+	clear: both;
+}
+
+/*段落タグ設定*/
+#top p {
+	padding: 0.5em 10px 1em;
+}
+
+/*トップページ内「更新情報・お知らせ」ブロック
+---------------------------------------------------------------------------*/
+#top .new dl {
+	height: 150px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#top .new dt {
+	font-weight: bold;	/*日付を太字にする設定*/
+	float: left;
+}
+
+#top .new dd {
+	border-bottom: 1px solid #cccccc;	/*日付ごとの下線*/
+	padding-left: 8em;
+}
+
+#welcome1{
+		width:819px;
+		float:left;
+		}
+#welcome2{
+		width:484px;
+		float:left;
+		}
+
+#TopImg{
+		width:325px;
+		float:left;
+		}
+
+body {
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック";
+	font-size: 75%;
+	line-height: 2;
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form{
+	margin: 0px;
+	padding: 0px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+img {
+	border: none;
+}
+
+input,textarea,select {
+	font-size: 1em;
+}
+
+form {
+	margin: 0px;
+}
+
+table {
+	border-collapse:collapse;
+	font-size: 100%;
+	border-spacing: 0;
+}

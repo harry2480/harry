@@ -1,0 +1,100 @@
+﻿<html>
+<head>
+<link rel="stylesheet" href="/company/test/css/style.css" type="text/css">
+</head>
+<body>
+
+<style>
+/* 追加: 検索フォームのスタイル */
+.search-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.search-container h2 {
+    margin-top: 0;
+}
+
+.search-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-container label {
+    margin-bottom: 5px;
+}
+
+.search-container input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container input[type="submit"] {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* 追加: 検索結果エリアのスタイル */
+.search-results {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+</style>
+	<div class="acmpTitleFont">アクセスマップ</div>
+	<br>
+	<ul>
+		<li>〒103-0007 <br>東京都中央区日本橋浜町二丁目35番4号<br>日本橋浜町パークビル2F</li>
+		<br>
+		<li>TELL: 03-5642-0033</li>
+		<li>営業時間:平日　11:30～22:00<br>
+		　　　　 土日祝　10:00～23:00</li>
+		<br>
+		<li>浜町駅徒歩5分。</li>
+	</ul>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.523475603546!2d139.78379277511374!3d35.688733772584825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018894e91bf8353%3A0x43b4f370d85ee36c!2z44CSMTAzLTAwMDcg5p2x5Lqs6YO95Lit5aSu5Yy65pel5pys5qmL5rWc55S677yS5LiB55uu77yT77yV4oiS77yUIOaXpeacrOapi-a1nOeUuuODkeODvOOCr-ODk-ODqyAyZg!5e0!3m2!1sja!2sjp!4v1725340395938!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	<br>
+	<br>
+	<div class="acmpShopInfoFont"><< 店内情報 >></div>
+	<ul>
+		<li>客席数 : 60席</li>
+		<li>全席禁煙</li>
+		<li>バリアフリー有</li>
+	</ul>
+	<image src="/company/test/img/floor.png" height="420" width="350" />
+    
+    <!-- 追加: 事業所検索フォーム -->
+    <div class="search-container">
+        <h2>事業所検索</h2>
+        <form action="/search_results" method="get">
+            <label for="search">キーワード:</label>
+            <input type="text" id="search" name="search" placeholder="事業所名や住所で検索">
+            <input type="submit" value="検索">
+        </form>
+    </div>
+    
+    <!-- 追加: 検索結果表示エリア -->
+    <div class="search-results">
+        <h2>検索結果</h2>
+        <!-- 検索結果がここに表示されます -->
+        <p>検索結果が表示されます。</p>
+    </div>
+
+</body>
+</html>

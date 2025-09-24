@@ -1,0 +1,94 @@
+/* ---------------------------------------------------------------------------
+//
+// ページ共通
+//
+// --------------------------------------------------------------------------- */
+
+/* Body用 */
+#contentsBody .color1 {
+	color: #FF1800;
+}
+#container {
+	background-color: #FFFFFF;	/*背景色*/
+	width: 850px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: left;
+}
+
+#contentsBody #contents {
+	width: 830px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*page1（HOME）のh2背景画像*/
+#contentsBody #campus h2 {
+	color: #fafafa;
+	background-image: url("/internship/img/high_light.gif");
+	background-repeat: no-repeat;
+	font-size: 100%;
+	line-height: 40px;
+	height: 40px;
+	overflow: hidden;
+	padding-left: 30px;
+	clear: both;
+}
+
+/*段落タグ設定*/
+#campus p {
+	padding: 0.5em 10px 1em;
+}
+
+/*トップページ内「更新情報・お知らせ」ブロック
+---------------------------------------------------------------------------*/
+#campus .new dl {
+	height: 150px;			/*ボックスの高さ*/
+	overflow: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#campus .new dt {
+	font-weight: bold;	/*日付を太字にする設定*/
+	float: left;
+}
+
+#campus .new dd {
+	border-bottom: 1px solid #cccccc;	/*日付ごとの下線*/
+	padding-left: 8em;
+}
+
+#welcome1 {
+	width:819px;
+	float:left;
+}
+#welcome2 {
+	width:484px;
+	float:left;
+}
+
+#TopImg{
+	width:325px;
+	float:left;
+}
+
+/* 会社概要 ブロック
+---------------------------------------------------------------------------*/
+#mojiSpanNavy {
+	color: navy;
+	font-weight: bold;
+}
+
+#companyInfo2 {
+	width:800px;
+	float:left;
+}
+
+#comInfoImg{
+	padding-top: 20px;
+	display : block;
+	width: 140px;
+	height: 200px;
+	float:left;
+}
