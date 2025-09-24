@@ -1,0 +1,87 @@
+.sharedbutton-list{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.sharedbutton-list li{
+    width: 20%;
+    text-align: center;
+}
+.sharedbutton-list li a{
+    display:block;
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+/*facebook*/
+.facebook a{
+    background: #1578f2;
+    box-shadow: 0 3px 0 #1b63bc;
+}
+.facebook:hover {
+    background-color: #1b63bc;
+    opacity: 1;
+}
+.facebook:active {
+    top: 1px;
+    box-shadow: 0 2px 0 #1b63bc;
+}
+/*twitter*/
+.twitter a{
+    background: #1da1f2;
+    box-shadow: 0 3px 0 #1282c7;
+}
+.twitter:hover {
+    background-color: #1282c7;
+    opacity: 1;
+}
+.twitter:active {
+    top: 1px;
+    box-shadow: 0 2px 0 #1282c7;
+}
+/*line*/
+.line a{
+    background: #00b900;
+    box-shadow: 0 3px 0 #179117;
+}
+.line:hover {
+    background-color: #179117;
+    opacity: 1;
+}
+.line:active {
+    top: 1px;
+    box-shadow: 0 2px 0 #179117;
+}
+/*pocket*/
+.pocket a{
+    background: #ce3b4e;
+    box-shadow: 0 3px 0 #a82738;
+}
+.pocket:hover {
+    background-color: #a82738;
+    opacity: 1;
+}
+.pocket:active {
+    top: 1px;
+    box-shadow: 0 2px 0 #a82738;
+}
+/*はてな*/
+.hatena a{
+    background: #00a4de;
+    box-shadow: 0 3px 0 #0d89b5;
+}
+.hatena:hover {
+    background-color: #0d89b5;
+    opacity: 1;
+}
+.hatena:active {
+    top: 1px;
+    box-shadow: 0 2px 0 #0d89b5;
+}

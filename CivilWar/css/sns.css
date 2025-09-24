@@ -1,0 +1,47 @@
+/*
+  Share SNS
+  Created by Toshihiko Arai.
+  https://101010.fun/programming/css-sns-share.html
+*/
+.shareSns {
+    list-style: none;
+    overflow: hidden;
+    margin:0;
+    padding: 0px;
+}
+.shareSns li {
+    text-align: center;
+    float: left;
+    margin:0;
+    padding: 0px;
+}
+.shareSns li a {
+    width: 180px;
+    line-height: 50px;
+    font-size:20px;
+}
+.shareSns li a:hover{
+    opacity: 0.8;
+}
+
+.shareSns li .icon-twitter{
+    display:block;
+    background:#55acee;
+    color:#ffffff;
+}
+.shareSns li .icon-facebook{
+    display:block;
+    background:#3B5998;
+    color:#ffffff;
+}
+.shareSns li .icon-hatebu{
+    display:block;
+    background:#008FDE;
+    color:#ffffff;
+}
+ 
+.shareSns li .icon-pocket{
+    display:block;
+    background:#EB4654;
+    color:#ffffff;
+}
