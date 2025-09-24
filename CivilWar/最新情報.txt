@@ -1,0 +1,99 @@
+ <div id="section05"></div>
+
+      <div class="flex_bg">
+        <div class="inners">
+
+          <p>&nbsp;</p>
+			
+			
+          <!-- ここから最新情報＆更新情報 -->
+          <div id="newsandupdate"></div>
+          <span class="brown_big_x">
+            <h2>
+              <center>
+                ～最新情報＆更新情報～
+            </h2>
+            </center>
+          </span>
+          <p>バグ修正や新機能の追加情報などがあればお知らせします</p>
+
+          <div class="news">
+	    <hr class="line">
+            Ver3.4 準備中…
+            <br>
+	    <hr class="line">
+            Ver3.3 サイトマップを作成しました。<a href="http://kadaiken.html.xdomain.jp/sitemap.html" style="text-decoration:none;">こちら</a>から
+            <br>
+	    <hr class="line">
+            Ver3.2 CivilWarを通して戦国時代のことを学ぶ記事の連載を開始しました。これから不定期で更新します。閲覧は<a href="http://kadaiken.html.xdomain.jp/article.html" style="text-decoration:none;">こちら</a>から
+            <br>
+	    <hr class="line">
+            Ver3.1 <a href="http://kadaiken.html.xdomain.jp/synopsis.html" style="text-decoration:none;">あらすじ</a>のページを追加しました。
+            <br>
+			<hr class="line">
+            Ver3.0 【重要なお知らせ】<br>課題研究最終発表試遊会は終えましたが、ゲーム「CivilWar」並びに「CivilWar公式サイト」の更新に関しましては頻度は低下しますが、引き続き続行致します。なお、完成品は<a href="https://drive.google.com/file/d/1L-Hk1HBmCEXjIxV-TUCr9MOhlvzDt66G/view?usp=sharing" style="text-decoration:none;">ここから</a>ダウンロードできますので、ぜひ遊んでみてください。
+            <br>
+			<hr class="line">
+            Ver2.9 「CivilWar」の<a href="https://drive.google.com/file/d/1L-Hk1HBmCEXjIxV-TUCr9MOhlvzDt66G/view?usp=sharing" style="text-decoration:none;">完成品</a>を公開しました。ぜひ遊んでみてください。
+            <br>
+			<hr class="line">
+            Ver2.8 課題研究最終発表を行いました。遊んでいただいた方、ありがとうございました。
+            <br>
+			<hr class="line">
+            Ver2.7 各種SNSへのシェア機能を追加しました。
+            <br>
+			<hr class="line">
+            Ver2.6 知的財産権に関する項目と利用規約に関する項目を追加しました。
+            <br>
+			<hr class="line">
+            Ver2.5 火縄銃がマシンガンのようになってしまう不具合を修正しました。
+            <br>
+            <hr class="line">
+            Ver2.4 FAQを更新しました
+            <br>
+            <hr class="line">
+            Ver2.3 文化祭発表を行いました。遊んでいただいた方、ありがとうございました。
+            <hr class="line">
+            Ver2.2 プレイしていただいた皆様からの意見をもとにさらにプレイが快適になるよう修正しました
+            <br>
+            <hr class="line">
+            Ver2.1 各種当たり判定の問題を修正しました
+            <br>
+            <hr class="line">
+            Ver2.0 プレイヤが階段に登れない不具合を修正しました
+            <br>
+            <hr class="line">
+            Ver1.9 ゲームが正常に起動しない問題を修正しました
+            <br>
+            <hr class="line">
+            Ver1.8 各種不具合を修正しました
+            <br>
+            <hr class="line">
+            Ver1.7 利用規約を作成しました。ぜひお読みください。
+            <br>
+            <hr class="line">
+            Ver1.6 ゲーム名を「CivilWar」に変更しました。
+            <br>
+            <hr class="line">
+            Ver1.5 ゲーム内BGMを追加しました
+            <br>
+            <hr class="line">
+            Ver1.4 ゲーム側の各種不具合を修正しました
+            <br>
+            <hr class="line">
+            Ver1.3 銃のエフェクトを追加しました
+            <br>
+            <hr class="line">
+            Ver1.2 ウェブページの不具合を修正しました
+            <br>
+            <hr class="line">
+            Ver1.1 FAQが正しく表示されない問題を修正しました
+            <br>
+            <hr class="line">
+            Ver.1.0 READYBATTLE(現CivilWar)公式ホームページを開始しました
+            <br>
+            <hr class="line">
+          </div>
+
+          <img src="http://kadaiken.html.xdomain.jp/image/kousin1.png" alt="" width="15" height="15">
+          最終更新日 : 2022.2.15

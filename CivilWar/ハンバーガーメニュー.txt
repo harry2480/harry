@@ -1,0 +1,28 @@
+https://rui-log.com/css-hamburger-menu/
+
+
+<!--ハンバーガーメニュー-->
+  <div class="header-logo-menu">
+  <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label id="nav-open" for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+    <div id="nav-content-header">ヘッダー</div>
+        <ul><br>
+        <li><a href="http://kadaiken.html.xdomain.jp/civilwar.html#introduction" style="text-decoration:none;">はじめに</a></li>
+
+      </ul>
+      </div>
+
+<script>
+$(function() {
+  $('#nav-content li a').on('click', function(event) {
+    $('#nav-input').prop('checked', false);
+  });
+});
+</script>
+
+  </div>
+  <div class="logo-area"></div>
+  </div>
+<!--ハンバーガーメニュー-->

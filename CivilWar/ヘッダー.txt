@@ -1,0 +1,56 @@
+ <body>
+    <header class="header">
+      <!-- ヘッダーロゴ -->
+      <div class="logo"></div>
+    
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="nav">
+    
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+    
+        <!-- ハンバーガーアイコン -->
+        <label for="drawer_input" class="drawer_open"><span></span></label>
+    
+        <!-- メニュー -->
+        <nav class="nav_content">
+          <ul class="nav_list">
+      <div class="logo">ヘッダー</div>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/civilwar.html#introduction" style="text-decoration:none;">はじめに</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/civilwar.html#synopsis" style="text-decoration:none;">あらすじ</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/civilwar.html#news" style="text-decoration:none;">最新情報</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/article.html" style="text-decoration:none;">新着記事</a></li><br>
+      <div class="logo">フッター</div>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/privacy.html style="text-decoration:none;">プライバシーポリシー</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/service.html style="text-decoration:none;">利用規約</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/right.html style="text-decoration:none;">知的財産権に関して</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/article.html style="text-decoration:none;">新着記事</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/contact.html style="text-decoration:none;">よくある質問/お問い合わせ</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/sitemap.html style="text-decoration:none;">サイトマップ</a></li><br>          
+      <div class="logo">記事のカテゴリ</div>
+準備中…
+	　　<!--<li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/category.html" style="decoration:none;"></a></li>
+ 	　　<!--<li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/privacy.html" style="decoration:none;"></a></li>
+            <!--<li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/service.html" style="decoration:none;"></a></li>
+            <!--<li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/right.html" style="decoration:none;"></a></li>
+</ul>
+        </nav>
+
+
+
+   <header class="header">
+
+      <!-- ハンバーガーメニュー部分 -->
+      <div class="nav">
+        
+        <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+        <input id="drawer_input" class="drawer_hidden" type="checkbox">
+    
+      </div>
+    </header>
+
+  </body>
+   
+      </div>
+    </header>
+  </body>
