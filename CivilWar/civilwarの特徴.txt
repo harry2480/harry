@@ -1,0 +1,46 @@
+
+<div id="features"></div>
+  <span class="brown_big_x">
+    <h2>
+      <center>
+        ～CivilWarの特徴～
+      </center>
+    </h2>
+  </span>
+
+
+  <!-- ３コンテンツ・ボックス ここから -->
+
+  <div class="box">
+
+    <div class="box1">
+      <p><img src="http://kadaiken.html.xdomain.jp/image/highquality.JPG" alt=""></p>
+      <p><span class="b_big_x">
+          ①ハイクオリティなCG
+        </span><br>
+        CG班が一から作成した城などの建造物がリアルに作られており、時代背景に設定している戦国時代の建物が再現されています
+      </p>
+    </div>
+
+    <div class="box2">
+      <p><img src="http://kadaiken.html.xdomain.jp/image/Kanshidai.JPG" alt=""></p>
+      <p><span class="b_big_x">
+          ②周囲を見渡せる監視台
+        </span><br>
+        城下町にある監視台でどこに敵がいるのかを確認できます。
+      </p>
+    </div>
+
+    <div class="box3">
+      <p><img src="http://kadaiken.html.xdomain.jp/image/meiro.JPG" alt=""></p>
+      <p><span class="b_big_x">
+          ③城にたどり着く前に立ちはだかる迷路
+        </span><br>
+        城に行く前に、迷路をゴールしないと城までいけない仕組みになっています。従来のシューティングゲームとは違い、よりゲームを楽しめるように迷路を準備しています。
+      </p>
+    </div>
+  </div>
+
+  <!-- ３コンテンツ・ボックス ここまで -->
+
+  <br>

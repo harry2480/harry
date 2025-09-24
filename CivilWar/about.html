@@ -1,0 +1,590 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+		CivilWar
+  </title>
+
+<!--アイコン-->
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon-180x180.png">
+
+<!--ファビコン-->
+<link rel="icon" type="image/x-icon" href="http://kadaiken.html.xdomain.jp/favicon.ico">
+<link rel="icon" type="image/png" href="http://kadaiken.html.xdomain.jp/favicon-16x16.png" sizes="16x16" />
+
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="歴史、FPS、3D、シューティング、城">
+  <meta name="description" content="城の頂上のゴールを目指すゲーム「CivilWar」の公式サイトです">
+  <link rel="stylesheet" href="http://kadaiken.html.xdomain.jp/css/sp.css">
+  <link rel="stylesheet" href="http://kadaiken.html.xdomain.jp//css/pc.css">
+　<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+
+<!--テンプレートのCSSここから-->
+  <link rel="stylesheet" href="http://kadaiken.html.xdomain.jp/css/sp.css">
+  <link rel="stylesheet" href="http://kadaiken.html.xdomain.jp//css/pc.css">
+  <!--テンプレートのCSSここまて-->
+  
+ <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
+  <link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/reset.css">
+<link rel="stylesheet" type="text/css" href="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/9-2-2/css/9-2-2.css">
+<link rel="stylesheet" type="text/css" href="http://kadaiken.html.xdomain.jp/css/tabmenu.css">
+<!--<link rel="stylesheet" type="text/css" href="http://kadaiken.html.xdomain.jp/css/humburger.css">-->
+<link rel="stylesheet" href="http://kadaiken.html.xdomain.jp/css/sam.css">
+</head>
+
+<!--ハンバーガーメニューのCSS-->
+<link rel="styleshteet" href="http://kadaiken.html.xdomain.jp/css/hamburger.css">
+<!--ハンバーガーメニューのCSS-->
+
+<!--SNS共有のCSS-->
+<link rel="stylesheet" type="text/css" href="http://kadaiken.html.xdomain.jp/css/sns-b.css">
+<!--SNS共有のCSS-->
+
+<!--==============レイアウトを制御する独自のCSSを読み込みここまで===============-->
+
+
+
+<!-- ↓ハンバーガーメニューここから↓ -->
+<!--<div class="demobox-header">-->
+	<span class="demobox-sitename"></span>
+	<div class="hamburger-demo-menubox">
+		<input id="hamburger-demo1" type="checkbox" class="input-hidden">
+		<label for="hamburger-demo1" class="hamburger-demo-switch hamburger-demo-switch1">
+			<span class="hamburger-switch-line1-before"></span>
+			<span class="hamburger-switch-line1"></span>
+			<span class="hamburger-switch-line1-after"></span>
+		</label>
+		<div class="hamburger-demo-menuwrap">
+			<ul class="hamburger-demo-menulist">
+      <div class="footer"><u>フッター</u></div>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/privacy.html" style="text-decoration:none;">プライバシーポリシー</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/service.html" style="text-decoration:none;">利用規約</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/right.html" style="text-decoration:none;">知的財産権に関して</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/article.html" style="text-decoration:none;">新着記事</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/contact.html" style="text-decoration:none;">よくある質問/お問い合わせ</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/pc-spec.html" style="text-decoration:none;">必要PCスペック</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/sitemap.html" style="text-decoration:none;">サイトマップ</a></li><br>          
+      <div class="category"><u>記事のカテゴリ</u></div>
+      
+ 	　　<li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/category.html" style="decoration:none;">カテゴリ</a></li>
+ 	　　<li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/category/it.html" style="decoration:none;">IT</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/category/make-game.html" style="decoration:none;">ゲーム開発</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/category/feature.html" style="decoration:none;">特集</a></li>
+            <li class="nav_item"><a href="http://kadaiken.html.xdomain.jp/category/learn.html" style="decoration:none;">学び</a></li>
+</ul>
+
+		</div>
+		<div class="hamburger-demo-cover"></div>
+	</div>
+	
+<!--ハンバーガーメニューcssここから-->
+<style>
+/* header（デモの参考値） */
+.demobox-header{
+background: #ddd;
+height: 64px;
+padding: 1em;
+}
+/* headerのサイト名（デモの参考値） */
+.demobox-sitename{
+font-weight: 700;
+font-size: 18px;
+}
+/* 全体調整CSS */
+.hamburger-demo-menubox *{
+	font-size: 16px;
+}
+.hamburger-demo-menubox li{
+	font-size: 14px;
+}
+/* hamburgerここから */
+	/* inputを非表示 */
+.input-hidden{
+	display: none;
+}
+	/* label */
+.hamburger-demo-switch{
+	cursor: pointer;
+	position: absolute;
+	right: 3%;
+	top: 0; /* ハンバーガーアイコンの位置（上から） */
+	z-index: 9999;
+	width: 4em; /* アイコン（クリック可能領域）の幅 */
+	height: 4em; /* アイコン（クリック可能領域の）高さ */
+}
+/* メニュー展開時にハンバーガーアイコンを固定 */
+#hamburger-demo1:checked ~ .hamburger-demo-switch{
+	position: fixed;
+}
+/* ハンバーガーアイコン */
+.hamburger-switch-line1, .hamburger-switch-line1-before, .hamburger-switch-line1-after{
+	width: 25px;
+	height: 3px;
+	background: #333; /* ハンバーガーアイコンの色 */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transition: .3s;
+	content: "";
+}
+.hamburger-switch-line1{
+		transform: translate(-50%, -50%);
+}
+.hamburger-switch-line1-before{
+	transform: translate(-50%, -300%);
+}
+.hamburger-switch-line1-after{
+	transform: translate(-50%, 200%);
+}
+/* ハンバーガーアイコン･アニメーション */
+#hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1{
+	width: 0;
+}
+#hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1-before{
+	transform: rotate(45deg) translate(-40%, 325%);
+}
+#hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1-after{
+	transform: rotate(-45deg) translate(-40%, -325%);
+}
+/* メニューエリア */
+.hamburger-demo-menuwrap{
+	position: fixed;
+	height: 100%;
+	background: #fafafa; /* メニューエリアの背景色 */
+	padding: 5em 3% 2em;
+	z-index: 9998;
+	transition: .3s;
+	overflow-y: scroll; /* メニュー内容が多い場合に縦スクロールする */
+	top: 0;
+	left: 100%;
+	width: 70%;
+}
+/* メニューリスト */
+.hamburger-demo-menulist{
+	margin-right: 3%;
+	padding-left: 5% !important; /* !important不要な場合もあり */
+	list-style: none;
+}
+.hamburger-demo-menulist li a{
+	text-decoration: none;
+	color: #333; /* メニューリストの文字色 */
+	display: block;
+	padding: .5em 0;
+}
+/* メニューエリア･アニメーション */
+	/* 右から */
+#hamburger-demo1:checked ~ .hamburger-demo-menuwrap{
+	left: 30%;
+}
+	/* コンテンツカバー */
+#hamburger-demo1:checked ~ .hamburger-demo-cover{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9997;
+	background: rgba(3,3,3,.5);
+	display: block;
+}
+/* PCではハンバーガーメニューを表示しない */
+@media (min-width: 992px){
+	.hamburger-demo-menubox{
+		display: none;
+	}
+}
+
+</style>
+<!--ハンバーガーメニューcssここまで-->
+	
+
+<!-- ↑ハンバーガーメニューここまで↑ -->
+</div>
+
+
+
+
+<!--ページ読み込み-->
+
+
+<!--ページ読み込みここまで-->
+
+
+<!-- 検索ボックス -->
+<!--<div style="display:inline-flex;">-->
+  <!--<button type="button" title="サイト内検索" onclick="document.querySelector('#wrap-site-search').style.display=(document.querySelector('#wrap-site-search').style.display==='none')?'inline-block':'none';document.querySelector('#wrap-site-search input').focus();" style="background:transparent;cursor:pointer;border:0px solid transparent;">🔍</button>-->
+  <!--<div id="wrap-site-search" style="display: none;">-->
+    <!--<input type="text" placeholder="サイト内検索" onkeyup="if(event.keyCode===13)location.href=`http://kadaiken.html.xdomain.jp/civilwar.html?q=site%3A${location.host}+${encodeURIComponent(event.currentTarget.value)}`">-->
+  <!--</div>-->
+<!--</div>-->
+<!--Webページ内検索ここまで-->
+
+
+
+</head>
+
+
+<body>
+
+  <!-- メイン -->
+
+  <div id="main">
+
+
+    <!-- ヘッダー -->
+
+
+    <div id="header">
+
+      <h1>
+        CivilWar
+      </h1>
+
+
+      <div id="header_inner" class="clearfix">
+        <div id="h_logo">
+          <h2><a href="http://kadaiken.html.xdomain.jp/civilwar.html" style="text-decoration:none;">CivilWar</a>
+          </h2>
+          <p class="h_sub">
+
+          </p>
+        </div>
+        <div id="h_nav">
+          <ul>
+            <li><a href="#introduction">
+                はじめに
+	    <li><a href="http://kadaiken.html.xdomain.jp/civilwar.html#synopsis">あらすじ</a></li>
+            <li><a href="http://kadaiken.html.xdomain.jp/civilwar.html#news">最新情報</a></li>
+	    <li><a href="http://kadaiken.html.xdomain.jp/article.html">新着記事</a></li>
+	</ul>
+        </div>
+      </div>
+
+    </div>
+
+
+<!--ハンバーガーメニューここから-->
+
+
+
+
+<!--ハンバーガーメニューここまで-->
+
+    <!-- ヘッダー終わり -->
+
+
+
+    <!-- メイン画像 ここから -->
+
+
+    <!-- メイン画像 ここまで -->
+
+
+
+    <!-- コンテンツ -->
+
+    <!-- メインコンテンツ -->
+
+    <!--<div id="introduction"></div>-->
+
+<style>
+.greeting {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.4em;
+  padding: 5px;
+  background:#d2691e;
+  <!--background:#FFD9D7;-->
+}
+
+</style>
+
+
+<!--目次のCSS-->
+<style>
+.l_toc {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    font-weight: bold;
+}
+
+.l_toc a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.l_toc ol {
+    background-color: #464646;
+    padding-left: 0;
+    list-style: none;
+    counter-reset: section;
+    padding: 20px;
+}
+
+.child_ol li {
+    padding-left: 20px;
+}
+</style>
+
+<style>
+/*****
+目次ボタンクリックでtoc_containerを開く
+******/
+
+#tocopen:checked+.toc_container {
+    display: block;
+    padding: 45px;
+    border: 4px solid tan;
+}
+
+</style>
+
+<style>
+/*****
+目次ボタンクリックでtoc_containerを開く
+******/
+
+#tocopen:checked+.toc_container {
+    display: block;
+    padding: 45px;
+    border: 4px solid tan;
+}
+/*****
+目次ボタンクリックでtoc_containerを開く
+******/
+
+#tocopen:checked+.toc_container {
+    display: block;
+    padding: 45px;
+    border: 4px solid tan;
+}
+/*****チェックボックスと開閉する目次ボックスは非表示****/
+
+.toc_container,.l_toc input[type="checkbox"]{
+    display: none;
+}
+
+/*****目次*****/
+
+.l_toc {
+    width: 95%;
+    max-width: 500px;
+    margin: 30px auto;
+    position: relative;
+    top: 38px;
+    left: 0;
+}
+
+.l_toc label {
+    background-color: tan;
+    padding: 10px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+.toc_container {
+    background-color: #fff;
+    width: 100%;
+}
+.toc_container ol>li {
+    margin: 10px 0px;
+}
+
+/*****目次リスト先頭にアイコン*****/
+
+.toc_container>li::before {
+    color: deeppink;
+    font-family: "Font Awesome 5 Free";
+    content: '\f105';
+    padding-right: 8px;
+}
+
+.toc_container ol>li::before {
+    color: rgb(110, 20, 255);
+    font-family: "Font Awesome 5 Free";
+    content: '\f105';
+    padding-right: 8px;
+}
+</style>
+  <img src="http://kadaiken.html.xdomain.jp/image/tittlelogo.jpg" width="1000" height="500">
+
+<div class="l_toc">
+    <label for="tocopen">目次-OPEN</label>
+    <input id="tocopen" type="checkbox">
+    <ol class="toc_container">
+        <li><a href="#greeting">ごあいさつ</a></li>
+        <li><a href="#reason">Webサイトを作った具体的な理由</a></li>
+        <li><a href="#software">使用ソフトウェア</a></li>
+            </ol>
+</div>
+<!--ごあいさつCSS-->
+<style>
+.greeting {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.4em;
+  padding: 5px;
+  background:#d2691e;
+  <!--background:#FFD9D7;-->
+}
+
+</style>
+<!--ごあいさつCSS-->
+<br><br>
+<center><p class="greeting"><id="greeting">ご挨拶</p></center>
+CivilWarにようこそ。<a href="http://kadaiken.html.xdomain.jp/civilwar.html" style="text-decoration:none;">トップページ</a>の<a href="http://kadaiken.html.xdomain.jp/civilwar.html#introduction" style="text-decoration:none;">はじめに</a>にも記載していますが、CivilWarは高校生三人が「課題研究」という授業の一環でゲームからWebまで何もかもを一から作成しました。当初はゲーム内にこのページの内容もまとめようと思ったのですが、ゲーム内のみではやれることの限界があると感じ、このWebサイトを作成しました。ゲームをプレイしている最中に、「ここの動作がおかしい！」など、ゲーム側の欠陥が見つかる場合もあると思います。まだ作成したのはまだ高校生です。ということもあり、腕はまだまだ未熟です。よく見ると雑で見苦しいところも少しはあると思いますが、温かく見守っていただけるとありがたいです。
+<center><p>- 課題研究「CivilWar」プロジェクトリーダー（PL）-</p></center>
+    <br class="clear">
+
+
+<style>
+.reason {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.4em;
+  padding: 5px;
+  background:#d2691e;
+  <!--background:#FFD9D7;-->
+}
+
+</style>
+
+<center><p class="reason"><id="reason">Webサイトを作った具体的な理由</p></center>
+CivilWarは、ゲーム作成エンジンである<a href="https://unity.com/ja" style="text-decoration:none;">「Unity」</a>を使用しています。
+CivilWarはスライドショーやハンバーガメニューなど、少し高めの技術を使用しています。ですが、「Unity」内部のみで作成しようとすると、搭載されているUIに限界があると感じました。
+Webサイトなら、「Unity」の限界の幅を超えたものが作れるのではないかと考えたからです。
+
+<!--使用ソフトウェアCSS-->
+<style>
+.software {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.4em;
+  padding: 5px;
+  background:#d2691e;
+  <!--background:#FFD9D7;-->
+}
+
+</style>
+<!--使用ソフトウェアCSS-->
+
+<center><p class="software"><id="software">使用ソフトウェア</p></center>
+
+<li><a href="https://unity.com/ja" style="text-decoration:none;">Unity</a></li>(ゲーム作成ソフト)
+<li><a href="https://www.autodesk.co.jp/products/maya/overview" style="text-decoration:none;">AutoDesk Maya</a></li>(CG作成ソフト)
+<li><a href="https://azure.microsoft.com/ja-jp/products/visual-studio-code/" style="text-decoration:none;">Visual Studio Code</a></li>(ソースコード作成ソフト)
+<li><a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjUqIHl6pf2AhXDaSoKHTN1DGwYABABGgJ0bQ&ae=2&sig=AOD64_2cN6zgmc4Zqz3Uh4S8XNDEH-qmWg&q&adurl&ved=2ahUKEwiu9fjk6pf2AhUQ8WEKHY9ODDMQ0Qx6BAgEEAE" style="text-decoration:none;">Adobe Premiere Pro CC 2018</a></li>(動画編集ソフト)
+<li><a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjr5fv56pf2AhVl05YKHcgUAKoYABABGgJ0bA&ae=2&sig=AOD64_1pfqmENp_K3DqZ7gU_v3N3kdjfXQ&q&adurl&ved=2ahUKEwjZ8PP56pf2AhXJUfUHHTF8AlEQ0Qx6BAgEEAE" style="text-decoration:none;">Adobe Photoshop CC 2018</a></li>(画像編集ソフト)
+<li><a href="https://www.adobe.com/jp/products/audition.html" style="text-decoration:none;">Adobe Audition CC 2018</a></li>(音源編集ソフト)
+<li><a href="https://www.adobe.com/jp/products/dreamweaver.html" style="text-decoration:none;">Adobe DreamWeaver</a></li>(ホームページ作成ソフト)
+<li><a href="https://forest.watch.impress.co.jp/library/software/ffftp/" style="text-decoration:none;">FFFTP</a></li>(ファイル転送ソフト)
+<li><a href="https://www.apple.com/jp/safari/" style="text-decoration:none;">Safari<li><a href="https://www.google.co.jp/chrome/?brand=RPHE&gclsrc=ds&gclsrc=ds" style="text-decoration:none;">Google Chrome</a></li><li><a href="https://www.mozilla.org/ja/firefox/new/" style="text-decoration:none;">Firefox</a></li><li><a href="https://support.microsoft.com/ja-jp/windows/internet-explorer-%E3%81%AE%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89-d49e1f0d-571c-9a7b-d97e-be248806ca70" style="text-decoration:none;">Internet Explorer</a></li>
+<li><a href="https://www.opera.com/ja/computer/neon" style="text-decoration:none;">Opera</a></li><li><a href="https://www.microsoft.com/ja-jp/edge" style="text-decoration:none;">Microsoft Edge</a></li><li><a href="https://www.google.com/aclk?sa=l&ai=DChcSEwjT7oja7Jf2AhWDJGAKHUXdA7MYABAAGgJ0bQ&ae=2&sig=AOD64_0sjImiyCRIeMvP7sSaDwLWiH4m_Q&q&adurl&ved=2ahUKEwjHuIDa7Jf2AhXPOnAKHUHiD70Q0Qx6BAgCEAE" style="text-decoration:none;">Brave</a></li><li><a href="" style="text-decoration:none;">Vivaldi</a></li>(Webブラウザソフト)
+
+※ソフト名を押すとダウンロードリンクに飛ぶことができます。
+
+
+
+
+<div>
+
+
+
+
+	
+		<!-- トップに戻る-->
+          <p class="back"><a href="#header"><img class="scroll" src="http://kadaiken.html.xdomain.jp/image/pagetop.png" alt="ページトップに戻る"></a></p>
+
+
+        </div>
+
+        <!-- メインコンテンツ終わり -->
+
+      </div>
+
+      <!-- コンテンツ終わり -->
+<!-- 各種SNSにシェア -->
+＼各種SNSにシェア／
+
+<!-- 各種SNSにシェア -->
+<p>Share on SNS</p>
+<!-- Twitterにシェア -->
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<!-- Fscebookにシェア -->
+<head>
+<!-- You can use Open Graph tags to customize link previews.
+Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+<meta property="og:url"           content="https://www.your-domain.com/your-page.html" />
+<meta property="og:type"          content="website" />
+<meta property="og:title"         content="Your Website Title" />
+<meta property="og:description"   content="Your description" />
+<meta property="og:image"         content="https://www.your-domain.com/path/image.jpg" />
+</head>
+
+<body>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v12.0" nonce="UjsDRAAO"></script></body>
+	
+
+<!-- Your share button code -->
+<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">シェア</a></div>
+	
+<!-- LINEにシェア-->
+
+<div class="line-it-button" data-lang="ja" data-type="share-a" data-env="REAL" data-url="https://developers.line.biz/ja/docs/line-social-plugins/install-guide/using-line-share-buttons/" data-color="default" data-size="small" data-count="true" data-ver="3" style="display: none;"></div>
+<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>  <br>
+
+<!--<a href="https://social-plugins.line.me/lineit/share?url="><img src="../3年/課題研究/素材/SendLINE.png" width="80" height="20"></a>
+<br>
+<!-- 各種SNSにシェア -->
+
+
+
+      <!-- フッター -->
+
+      <div id="footer">
+
+        <div class="footer_nav">
+          <ul class="clearfix">
+            <li><a href="http://kadaiken.html.xdomain.jp/privacy.html">プライバシーポリシー</a></li>
+	    <li><a href="http://kadaiken.html.xdomain.jp/service.html">利用規約</a></li>
+	    <li><a href="http://kadaiken.html.xdomain.jp/right.html">知的財産権に関して</a></li>
+	    <li><a href="http://kadaiken.html.xdomain.jp/article.html">新着記事</a></li>
+	    <li><a href="http://kadaiken.html.xdomain.jp/contact.html">よくあるご質問/お問い合わせ</a></li>
+	　　<li><a href="http://kadaiken.html.xdomain.jp/sitemap.html">サイトマップ</a></li>
+            
+          </ul>
+
+          <p class="copy">
+            © 2021 <a href="http://kadaiken.html.xdomain.jp/civil-war.html" style="text-decoration:none;">CivilWar</a>
+          </p>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- フッター終わり -->
+
+    </div>
+
+    <!-- メイン終わり -->
+
+</body>
+
+</html>
