@@ -1,7 +1,7 @@
 
 /* ヘッダー */
 .headerBody {
-    background-image: url("/img/top_header.jpg");
+    background-image: url("../img/top_header.jpg");
     background-position: left;
     color: #FFFFFF;
     position: fixed; /* ヘッダーを固定する */
@@ -25,7 +25,7 @@
 
 /* フッター */
 .footerBody{
-	background-image : url("/img/020988_mini.jpg");
+	background-image : url("../img/020988_mini.jpg");
 	background-repeat:no-repeat;
 	background-position:top;
 	color : #8B4513;
