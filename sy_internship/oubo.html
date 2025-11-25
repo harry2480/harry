@@ -2,7 +2,7 @@
 <head>
 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
 <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
-<link rel="stylesheet" type="text/css" href="/internship/css/common.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/common.css" media="all">
 </head>
 <body id="contentsBody">
 <title>応募フォーム</title>
@@ -39,7 +39,7 @@
 .hissukoumoku{
     /*コレ*/border: 5px solid #ffa500;
     padding: 30px 20px;
-    width=max;
+    width: max-content;
     box-sizing: border-box;
     background: #ffffff;
 }
@@ -88,7 +88,7 @@ font-size: 20px;
 </style>
                 
 <!--フォーム-->
-<form action="/internship/perfect.html" method="post">
+<form action="perfect.html" method="post">
   <div class="input-area">
     <p class="required-info"><span style=color:black;">氏名 ※全角</span> <span style="color:red";>(必須)</span></p>
     <input type="text" name="name" placeholder="例）土禁　太郎" required>
@@ -317,7 +317,7 @@ font-size: 20px;
 
 
  <div class="input-area">
-  <form action="/internship/perfect.html" method="get"> <!-- 任意のページに遷移するURLを指定 -->
+  <form action="perfect.html" method="get"> <!-- 任意のページに遷移するURLを指定 -->
         <center>
             <input type="submit" name="submit" value="応募する" class="btn-border">
         </center>

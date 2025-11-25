@@ -25,7 +25,7 @@
 /*page1（HOME）のh2背景画像*/
 #contentsBody #campus h2 {
 	color: #fafafa;
-	background-image: url("/internship/img/high_light.gif");
+	background-image: url("/img/high_light.gif");
 	background-repeat: no-repeat;
 	font-size: 100%;
 	line-height: 40px;
